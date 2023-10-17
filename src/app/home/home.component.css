@@ -1,0 +1,21 @@
+.categories{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.categories li {
+    padding: 10px 10px 10px 0px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.categories li:hover{
+    background-color: #f1f1f1;
+}
+.card-img-top{
+    width: 200px;
+    height: 250px;
+    object-fit:contain;
+}
